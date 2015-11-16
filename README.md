@@ -1,4 +1,19 @@
+LOCAL INSTALL PROCEDURE:
+
+create branch on github for project
+
+in project directory:
+git init
+git remote add origin -t <branchname> git@github.com:scholzmb/GATKBacteria.git
+git pull
+git checkout <branchname>
+
+proceed.  
+
+else (others) clone, or branch, and make pull requests.
+
 This repository contains all code needed to generate a SNP analysis from bacterial samples.  It is designed to work with multiple samples at a time.  
+
 
 Scripts must be edited to use:
 
