@@ -1,5 +1,6 @@
 #!/bin/bash -l
 
+#test change
 PICARD="java -jar /usr/analysis/tools/picard-tools/picard.jar"
 
 for i in *.sam
