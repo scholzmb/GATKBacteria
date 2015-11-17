@@ -4,9 +4,20 @@
 
 Materials and Methods
 Sequence Analysis 
-Sequence data was submitted to QA/QC using FastQC [version] (REF), and Trimmomatic [version] (REF) with appropriate trimming and adapter options.  Trimmed reads were aligned to the reference genome (Link to Reference genome at NCBI here) using BWA mem (REF).  Subsequent steps to identify variants were taken using the PicardTools [Version] and GATK [Version] (REF) with the GATK recommended practices (website links).  Identified SNPs were annotated using TRAMS [version] (REF).  A complete set of all commands utilized for this analysis can be downloaded from git: (Link).  
+Sequence data was submitted to QA/QC using FastQC V-0.11.4 (http://www.bioinformatics.babraham.ac.uk/projects/fastqc/), and Trimmomatic V.0.33 (Bolger, et al. 2014) using LEADING:3 and TRAILING:3 and appropriate adapter options.  Trimmed reads were aligned to the reference genome (Link to Reference genome at NCBI here) using BWA mem (Li and Durbin, 2009).  Subsequent steps to identify variants were taken using the PicardTools V.1.130 (http://broadinstitute.github.io/picard) and GATK Version-3.4.46 (McKenna et al., 2010) with the GATK recommended practices (DePristo et al., 2011; Van der Auwera et al., 2013)  Identified SNPs were annotated using TRAMS (Reumerman, et al., 2013).  A complete set of all commands utilized for this analysis can be downloaded from git: (Link).  
 
 
 References:
 
+Bolger, A. M., Lohse, M., & Usadel, B. (2014). Trimmomatic: A flexible trimmer for Illumina Sequence Data. Bioinformatics, btu170.
+
+Li H. and Durbin R. (2009) Fast and accurate short read alignment with Burrows-Wheeler Transform. Bioinformatics, 25:1754-60.
+
+McKenna A, Hanna M, Banks E, Sivachenko A, Cibulskis K, Kernytsky A, Garimella K, Altshuler D, Gabriel S, Daly M, DePristo MA, (2010). The Genome Analysis Toolkit: a MapReduce framework for analyzing next-generation DNA sequencing data. Genome Research, 20:1297-303.
+
+DePristo M, Banks E, Poplin R, Garimella K, Maguire J, Hartl C, Philippakis A, del Angel G, Rivas MA, Hanna M, McKenna A, Fennell T, Kernytsky A, Sivachenko A, Cibulskis K, Gabriel S, Altshuler D, Daly M, (2011). A framework for variation discovery and genotyping using next-generation DNA sequencing data. Nature Genetics, 43:491-498.
+
+GA, Carneiro M, Hartl C, Poplin R, del Angel G, Levy-Moonshine A, Jordan T, Shakir K, Roazen D, Thibault J, Banks E, Garimella K, Altshuler D, Gabriel S, DePristo M, (2013). From FastQ Data to High-Confidence Variant Calls: The Genome Analysis Toolkit Best Practices Pipeline. Current Protocols in Bioinformatics. 43:11.10.1-11.10.33
+
+eumerman, R., Tucker, N., Herron, P., Hoskisson, P., & Sangal, V. (2013). Tool for rapid annotation of microbial SNPs (TRAMS): a simple program for rapid annotation of genomic variation in prokaryotes. Antonie van Leeuwenhoek, 104(3), 431–434. 
 
