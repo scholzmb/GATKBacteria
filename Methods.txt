@@ -1,0 +1,12 @@
+#obligatory note: This is standard language for the analysis that is performed.  If this pipeline was used for your analysis, please acknowledge: "The VANderbilt Technologies for Advanced GEnomics (VANTAGE) core facility".  If additional work was performed, please discuss authorship vs. acknowledgements with matthew.b.scholz@vanderbilt.edu
+
+#Notes, if you have been provided this information from Vantage, the Git link below should be replaced with the BRANCH you were provided.  (This should already have been taken care of by Vantage).
+
+Materials and Methods
+Sequence Analysis 
+Sequence data was submitted to QA/QC using FastQC [version] (REF), and Trimmomatic [version] (REF) with appropriate trimming and adapter options.  Trimmed reads were aligned to the reference genome (Link to Reference genome at NCBI here) using BWA mem (REF).  Subsequent steps to identify variants were taken using the PicardTools [Version] and GATK [Version] (REF) with the GATK recommended practices (website links).  Identified SNPs were annotated using TRAMS [version] (REF).  A complete set of all commands utilized for this analysis can be downloaded from git: (Link).  
+
+
+References:
+
+
