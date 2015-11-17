@@ -5,7 +5,7 @@ GBK=/gluster/scholzmb/S_aureus/ref/NC_009641.gbk
 KNOWN=/gluster/scholzmb/S_aureus/ref/NC_009641.vcf
 GATK="java -jar /usr/analysis/tools/gatk/GenomeAnalysisTK.jar"
 PICARD="java -jar /usr/analysis/tools/picard-tools/picard.jar"
-VCF2TRAMS="/home/scholzmb/GATK_PIPELINE/contrib/vcf2trams.pl"
+VCF2TRAMS="/home/scholzmb/GATK_Bacteria/contrib/vcf2trams.pl"
 TRAMS="/usr/analysis/tools/TRAMS/Scripts/TRAMS.py"
 
 
