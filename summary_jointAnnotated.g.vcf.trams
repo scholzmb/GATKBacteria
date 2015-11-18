@@ -1,0 +1,123 @@
+
+ +------------------------------------------------------------------+
+ | Tool for Rapid Annotation of Microbial SNPs (TRAMS): a simple    |
+ | program for rapid annotation of genomic variation in prokaryotes |
+ |                                                                  |
+ | Developed by: Richard A. Reumerman, Nick P. Tucker, Paul R.      |
+ | Herron, Paul A. Hoskisson and Vartul Sangal                      |
+ +------------------------------------------------------------------+
+
+Found 10 strains: Ref (reference), MCS5-97, MCS6-63, MCS671, MCS679, MCS693, MCS694, MCS74, MCS75, MCS77.
+
+Finished annotation. Total time: 2.3 s
+
+Annotations were written to file 'annotation_jointAnnotated.g.vcf.trams'
+A list of SNPs in overlapping features is written to file 'overlap_jointAnnotated.g.vcf.trams'
+
++ Strain MCS5-97:
+  11 SNPs found
+  Number of SNPs found CDS features: 10
+  (of which in pseudogenes: 0)
+  - MNPs:          0
+  - Synonymous:    3
+  - Nonsynonymous: 7
+  - Nonsense:      0
+  - Nonstart:      0
+  - Nonstop:       0
+  Intergenic: 1
+
++ Strain MCS6-63:
+  12 SNPs found
+  Number of SNPs found CDS features: 11
+  (of which in pseudogenes: 0)
+  - MNPs:          2
+  - Synonymous:    2
+  - Nonsynonymous: 7
+  - Nonsense:      0
+  - Nonstart:      0
+  - Nonstop:       0
+  Intergenic: 1
+
++ Strain MCS671:
+  12 SNPs found
+  Number of SNPs found CDS features: 10
+  (of which in pseudogenes: 0)
+  - MNPs:          0
+  - Synonymous:    2
+  - Nonsynonymous: 8
+  - Nonsense:      0
+  - Nonstart:      0
+  - Nonstop:       0
+  Intergenic: 2
+
++ Strain MCS679:
+  5 SNPs found
+  Number of SNPs found CDS features: 4
+  (of which in pseudogenes: 0)
+  - MNPs:          0
+  - Synonymous:    1
+  - Nonsynonymous: 3
+  - Nonsense:      0
+  - Nonstart:      0
+  - Nonstop:       0
+  Intergenic: 1
+
++ Strain MCS693:
+  13 SNPs found
+  Number of SNPs found CDS features: 12
+  (of which in pseudogenes: 0)
+  - MNPs:          0
+  - Synonymous:    1
+  - Nonsynonymous: 11
+  - Nonsense:      0
+  - Nonstart:      0
+  - Nonstop:       0
+  Intergenic: 1
+
++ Strain MCS694:
+  13 SNPs found
+  Number of SNPs found CDS features: 12
+  (of which in pseudogenes: 0)
+  - MNPs:          1
+  - Synonymous:    5
+  - Nonsynonymous: 6
+  - Nonsense:      0
+  - Nonstart:      0
+  - Nonstop:       0
+  Intergenic: 1
+
++ Strain MCS74:
+  7 SNPs found
+  Number of SNPs found CDS features: 7
+  (of which in pseudogenes: 0)
+  - MNPs:          1
+  - Synonymous:    2
+  - Nonsynonymous: 4
+  - Nonsense:      0
+  - Nonstart:      0
+  - Nonstop:       0
+  Intergenic: 0
+
++ Strain MCS75:
+  2 SNPs found
+  Number of SNPs found CDS features: 2
+  (of which in pseudogenes: 0)
+  - MNPs:          0
+  - Synonymous:    1
+  - Nonsynonymous: 1
+  - Nonsense:      0
+  - Nonstart:      0
+  - Nonstop:       0
+  Intergenic: 0
+
++ Strain MCS77:
+  1 SNPs found
+  Number of SNPs found CDS features: 1
+  (of which in pseudogenes: 0)
+  - MNPs:          0
+  - Synonymous:    0
+  - Nonsynonymous: 1
+  - Nonsense:      0
+  - Nonstart:      0
+  - Nonstop:       0
+  Intergenic: 0

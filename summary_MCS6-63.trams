@@ -1,0 +1,27 @@
+
+ +------------------------------------------------------------------+
+ | Tool for Rapid Annotation of Microbial SNPs (TRAMS): a simple    |
+ | program for rapid annotation of genomic variation in prokaryotes |
+ |                                                                  |
+ | Developed by: Richard A. Reumerman, Nick P. Tucker, Paul R.      |
+ | Herron, Paul A. Hoskisson and Vartul Sangal                      |
+ +------------------------------------------------------------------+
+
+Found 2 strains: Ref (reference), MCS6-63.
+
+Finished annotation. Total time: 2.1 s
+
+Annotations were written to file 'annotation_MCS6-63.trams'
+A list of SNPs in overlapping features is written to file 'overlap_MCS6-63.trams'
+
++ Strain MCS6-63:
+  12 SNPs found
+  Number of SNPs found CDS features: 11
+  (of which in pseudogenes: 0)
+  - MNPs:          2
+  - Synonymous:    2
+  - Nonsynonymous: 7
+  - Nonsense:      0
+  - Nonstart:      0
+  - Nonstop:       0
+  Intergenic: 1
