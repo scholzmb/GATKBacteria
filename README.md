@@ -1,12 +1,15 @@
 LOCAL INSTALL PROCEDURE:
 
-create branch on github for project
+MAKE SURE YOU HAVE SET GIT TO ONLY UPDATE CURRENT BRANCH
+git config global push.default=current
+
 
 in project directory:
 git init
-git remote add origin -t <branchname> git@github.com:scholzmb/GATKBacteria.git
+git remote add origin master git@github.com:scholzmb/GATKBacteria.git
 git pull
-git checkout <branchname>
+git branch <project name>
+git checkout <project name>
 
 proceed.  
 
